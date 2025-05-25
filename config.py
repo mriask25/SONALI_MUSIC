@@ -7,17 +7,17 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID"))
-API_HASH = getenv("API_HASH")
+API_ID = int(getenv("20114039"))
+API_HASH = getenv("87297b8f3cc8fc9bbce591ad30da5896")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN")
+BOT_TOKEN = getenv("7711849714:AAEcnio5LrvkwkxbGYo_53UnPIv25ENLWCE")
 # -------------------------------------------------------
-OWNER_USERNAME = getenv("OWNER_USERNAME","ll_ALPHA_BABY_lll")
+OWNER_USERNAME = getenv("OWNER_USERNAME","Thebhumihar")
 # --------------------------------------------------------
 BOT_USERNAME = getenv("BOT_USERNAME","Sonali_Music_bot")
 # --------------------------------------------------------
-BOT_NAME = getenv("BOT_NAME")
+BOT_NAME = getenv("Music bot")
 # ---------------------------------------------------------
 
 
@@ -30,7 +30,7 @@ DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
 LOGGER_ID = int(getenv("LOGGER_ID", None))
 
 # Get this value from @PURVI_HELP_BOT on Telegram by /id
-OWNER_ID = int(getenv("OWNER_ID", 6051510669))
+OWNER_ID = int(getenv("OWNER_ID", 8172163893))
 
 
 ## Fill these variables if you're deploying on heroku.
@@ -41,7 +41,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/TEAMPURVI/SONALI_MUSIC",
+    "https://github.com/nhi-batau/SONALI_MUSIC",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
