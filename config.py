@@ -7,17 +7,17 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("20114039"))
-API_HASH = getenv("87297b8f3cc8fc9bbce591ad30da5896")
+API_ID = int(getenv("API_ID","20114039"))
+API_HASH = getenv("API_HASH","87297b8f3cc8fc9bbce591ad30da5896")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("7711849714:AAEcnio5LrvkwkxbGYo_53UnPIv25ENLWCE")
+BOT_TOKEN = getenv("BOT_TOKEN","7711849714:AAEcnio5LrvkwkxbGYo_53UnPIv25ENLWCE")
 # -------------------------------------------------------
 OWNER_USERNAME = getenv("OWNER_USERNAME","Thebhumihar")
 # --------------------------------------------------------
-BOT_USERNAME = getenv("BOT_USERNAME","Sonali_Music_bot")
+BOT_USERNAME = getenv("BOT_USERNAME","@alexzendarssbot")
 # --------------------------------------------------------
-BOT_NAME = getenv("Music bot")
+BOT_NAME = getenv("BOT_NAME","Music bot")
 # ---------------------------------------------------------
 
 
