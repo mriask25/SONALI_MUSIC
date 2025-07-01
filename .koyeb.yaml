@@ -4,7 +4,8 @@ build:
   type: buildpack
   buildpacks:
     - heroku/python
-  runCommand: python -m SONALI
+
+runCommand: python -m SONALI
 
 envs:
   - key: PYTHON_VERSION
