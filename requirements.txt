@@ -32,7 +32,7 @@ speedtest-cli
 unidecode
 urllib3
 wget
-pytgcalls==2.5.2
+pytgcalls==2.1.0
 git+https://github.com/KurimuzonAkuma/pyrogram@dev
 yt-dlp
 bing_image_downloader
