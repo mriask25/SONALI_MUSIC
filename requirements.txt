@@ -1,6 +1,5 @@
 aiofiles
 aiohttp
-#asyncio==3.4.3
 asyncio
 beautifulsoup4
 dnspython
@@ -9,11 +8,10 @@ future==0.18.3
 search_engine_parser
 telethon==1.33.1
 gitpython
-httpx[http2]
 heroku3
 hachoir
 motor==3.3.2
-pillow==9.5.0
+Pillow>=10.2.0
 psutil
 py-tgcalls==0.9.7
 pykeyboard
