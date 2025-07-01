@@ -1,8 +1,8 @@
-name: tera-app-naam
+name: sonali-music-bot
 
 build:
   type: buildpack
-  runCommand: python bot.py
+  runCommand: python -m SONALI
 
 envs:
   - key: PYTHON_VERSION
