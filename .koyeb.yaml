@@ -1,0 +1,4 @@
+name: tera-app-ka-naam
+envs:
+  - key: PYTHON_VERSION
+    value: 3.10.13
